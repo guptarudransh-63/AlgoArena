@@ -1,0 +1,27 @@
+{
+  "name": "algoarena",
+  "version": "1.0.0",
+  "description": "AlgoArena — A Full-Stack Coding Practice and Online Judge Platform",
+  "private": true,
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "dev:worker": "npm --prefix server run worker",
+    "build:client": "npm --prefix client run build",
+    "seed": "npm --prefix server run seed",
+    "test:server": "npm --prefix server test",
+    "test:client": "npm --prefix client test",
+    "test": "npm --prefix server test"
+  },
+  "keywords": [
+    "leetcode",
+    "online-judge",
+    "code-execution",
+    "judge0",
+    "bullmq",
+    "react",
+    "express"
+  ],
+  "author": "AlgoArena Team",
+  "license": "ISC"
+}
